@@ -1,0 +1,39 @@
+.navbar {
+    display: fixed;
+    color: white;
+    padding: .5rem;
+  }
+  
+  .navbar ol {
+    width: 100vw;
+    height: 7vh;
+    background: #CF3B66;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .navbar ol li {
+    list-style: none;
+    display: inline;
+  }
+  
+  .navbar ol li a {
+    text-decoration: none;
+    letter-spacing: .1rem;
+    color: white;
+    margin-bottom: 5rem;
+    font-weight: bold;
+  }
+
+  .mision, .vision{
+      border: 2px solid black;
+      height: 35vh;
+      width: 45vw;
+      margin: 4rem;
+      text-align: center;
+  }
+
+  .mision h1{
+    margin: 0;
+    padding: 0;
+}

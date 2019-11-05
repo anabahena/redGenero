@@ -1,25 +1,40 @@
 <div class="main-img">
-    <span class="line">  </span>
-    <img class="img-slider" src="../assets/prueba-main.jpg" alt="">
+  <img class="img-slider" src="../assets/banner_inicio.jpg" alt="">
 </div>
 <nav class="navbar">
-    <ol>
-        <li><a href="">Inicio</a>|</li>
-        <li><a href="">Conócenos</a>|</li>
-        <li><a href="">Actividades</a>|</li>
-        <li><a href="">Videos</a>|</li>
-        <li><a href="">Archivo Fotográfico</a></li>
-    </ol>
+  <ol>
+    <li><a routerLinkActive="active" routerLink="/inicio">Inicio</a>|</li>
+    <li><a routerLinkActive="active" routerLink="/conocenos">Conócenos</a>|</li>
+    <li><a routerLinkActive="active" routerLink="/actividades">Actividades</a>|</li>
+    <li><a routerLinkActive="active" routerLink="/videos">Videos</a>|</li>
+    <li><a routerLinkActive="active" routerLink="/archivo_fotográfico">Archivo Fotográfico</a></li>
+  </ol>
 </nav>
 
-<div class="iconos-ref">
-    <button class="button-circular"><img class="img-iconos" src="../assets/red.png" alt=""></button>
-    <p>Actividad actual de la red</p>
-    <button class="button-circular"><img class="img-iconos" src="../assets/unidad-genero.png" alt=""></button>
-    <p>Actividad UPGPG</p>
-    <button class="button-circular"><img class="img-iconos" src="../assets/recomendaciones.png" alt=""></button>
-    <p>Recomendaciones</p>
-    <button class="button-circular"><img class="img-iconos" src="../assets/noticias.png" alt=""></button>
-    <p>Noticias</p>
-</div>
+<div class="iconos-ref row">
+  <div class="col-sm-3 container-buttons" >
+    <button class="button-circular col-md-3"><img class="img-iconos" src="../assets/btn_act_red.png" alt=""></button>
+    <!-- <span>Actividad actual de la red</span> -->
+  </div>
+  <div class="col-3">
+    <button class="button-circular col-md-3"><img class="img-iconos" src="../assets/btn_act_upgpg.png" alt=""></button>
+    <!-- <p>Actividad UPGPG</p> -->
+  </div>
+  <div class="col-3">
+    <button class="button-circular col-md-3"><img class="img-iconos" src="../assets/btn_recomendaciones.png"
+        alt=""></button>
+    <!-- <p>Recomendaciones</p> -->
+  </div>
+  <div class="col-3">
+    <button class="button-circular col-md-3"><img class="img-iconos" src="../assets/btn_noticias.png" alt=""></button>
+    <!-- <p>Noticias</p> -->
+  </div>
 
+  <div class="row">
+    <p class="col-sm-3">Actividad actual de la red</p>
+    <p class="col-sm-3">Acividad UPGPG</p>
+    <p class="col-sm-3">Recomendaciones</p>
+    <p class="col-sm-3">Noticias</p>
+  </div>
+
+</div>

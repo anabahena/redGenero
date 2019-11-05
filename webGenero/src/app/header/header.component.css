@@ -5,9 +5,9 @@
 
 .utileriasIpn{
     width: 100vh;
-    height: 5vh;
+    height: 10vh;
     position: relative;
-    margin-left: 72rem;
+    margin-left: 65rem;
     padding: 0;
 
 }
@@ -37,15 +37,14 @@
 
 .img-header{
     width: 100vw;
-    height: 20vh;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+    height: 40vh;
+    display: inline-block;
 }
 
 .img-gob{
     width: 50vw;
     height: 20vh;
+    margin-left: 18rem;
 }
 
 .img-ipn{
@@ -66,8 +65,8 @@
 }
 
 .sm {
-    margin-top: 8rem;
-    margin-left: -18rem;
+    margin-top: -8rem;
+    margin-left: 94rem;
     font-size: 10px;
     font-weight: 400;
 }
