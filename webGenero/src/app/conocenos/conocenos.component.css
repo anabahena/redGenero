@@ -26,14 +26,47 @@
   }
 
   .mision, .vision{
-      border: 2px solid black;
+      border: 2px solid #CF3B66;
       height: 35vh;
       width: 45vw;
       margin: 4rem;
-      text-align: center;
+      text-align: justify;
   }
 
-  .mision h1{
+  .mision h2{
     margin: 0;
+    padding: 1rem;
+    text-align: center;
+    color: #CF3B66;
+}
+
+.mision p{
     padding: 0;
+}
+
+.vision h2{
+    margin: 0;
+    padding: 1.5rem;
+    text-align: center;
+    color: #CF3B66;
+}
+
+.somos{
+    border: 2px solid #CF3B66;
+    height: 35vh;
+    width: 96vw;
+    margin: 4rem;
+    text-align: justify;
+    padding: 1rem;
+}
+
+.somos h2{
+    margin: 0;
+    padding: 1.5rem;
+    text-align: center;
+    color: #CF3B66;
+}
+
+.correo{
+    color: blue;
 }
