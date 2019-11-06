@@ -8,6 +8,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { ConocenosComponent} from './conocenos/conocenos.component'
   import { from } from 'rxjs';
 import { ContainerComponentsComponent } from './container-components/container-components.component';
+import { ActividadesComponent } from './actividades/actividades.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ContainerComponentsComponent } from './container-components/container-c
     HeaderComponent,
     SliderComponent,
     ConocenosComponent,
-    ContainerComponentsComponent
+    ContainerComponentsComponent,
+    ActividadesComponent
   ],
   imports: [
     BrowserModule,
