@@ -9,6 +9,7 @@ import { ConocenosComponent} from './conocenos/conocenos.component'
   import { from } from 'rxjs';
 import { ContainerComponentsComponent } from './container-components/container-components.component';
 import { ActividadesComponent } from './actividades/actividades.component';
+import { VideosComponent } from './videos/videos.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { ActividadesComponent } from './actividades/actividades.component';
     SliderComponent,
     ConocenosComponent,
     ContainerComponentsComponent,
-    ActividadesComponent
+    ActividadesComponent,
+    VideosComponent
   ],
   imports: [
     BrowserModule,

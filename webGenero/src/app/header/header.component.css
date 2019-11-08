@@ -7,7 +7,7 @@
     width: 100vh;
     height: 10vh;
     position: relative;
-    margin-left: 65rem;
+    margin-left: 85rem;
     padding: 0;
 
 }
@@ -15,7 +15,7 @@
 .utileriasIpn ul li a{
     color: #363636;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     font-weight: 400;
     line-height: 1.5rem;
 }
@@ -65,8 +65,8 @@
 }
 
 .sm {
-    margin-top: -8rem;
-    margin-left: 94rem;
+    margin-top: -9rem;
+    margin-left: 112rem;
     font-size: 10px;
     font-weight: 400;
 }

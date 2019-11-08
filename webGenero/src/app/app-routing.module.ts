@@ -4,11 +4,12 @@ import { ConocenosComponent } from './conocenos/conocenos.component';
 import { HeaderComponent} from './header/header.component';
 import { ActividadesComponent} from './actividades/actividades.component'
 import { from } from 'rxjs';
+import { SliderComponent } from './slider/slider.component';
 
 
 const routes: Routes = [
-  { path:'inicio', component:HeaderComponent},
-  { path: '' , component: HeaderComponent },
+  { path:'inicio', component:SliderComponent},
+  { path: '' , component: SliderComponent },
   { path:'conocenos', component: ConocenosComponent },
   { path: 'actividades', component: ActividadesComponent}
 ];
